@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/*
+ Author: Khalel Abaquin
+ Date: 11.2.18 
+*/
+
+html {
+    background-color: rgb(44, 72, 104);
+    max-width: 960px;
+    min-width: 640px;
+    margin: auto;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 95%;
+    background-color: rgb(131, 127, 127);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body h1 {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 100px 0;
+    font-size: 50px;
+}
+
+ul li {
+    display: block;
+    width: 25%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(78, 97, 114);
+    box-sizing: border-box;
+
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+
+ul li::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+
+nav ul li:hover {
+    background-color: rgb(57, 72, 85);
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: azure;
+
+}
+
+nav>ul>li>a:hover,
+nav>ul>li>a:active {
+    color: rgb(201, 201, 175);
+
+}
+
+
+section#topleft h2 {
+    float: left;
+    width: 50%;
+    margin: 0;
+    text-align: center;
+}
+
+section#topleft {
+    display: block;
+    padding-top: 50px;
+}
+
+section#topleft p {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding-left: 25px;
+}
+
+section#topright h2 {
+    float: right;
+    width: 50%;
+    margin: 0;
+    text-align: center;
+}
+
+section#topright {
+    display: block;
+    padding-top: 50px;
+}
+
+section#topright p {
+    float: right;
+    width: 50%;
+    margin: 0;
+    padding-right: 25px;
+}
+
+p#placeHolder {
+    padding-top: 100px;
+    text-align: center;
+}
