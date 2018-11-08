@@ -6,7 +6,7 @@
 */
 
 html {
-    background-color: rgb(44, 72, 104);
+    background-color: rgb(16, 34, 56);
     max-width: 960px;
     min-width: 640px;
     margin: auto;
@@ -16,96 +16,72 @@ html {
 body {
     width: 100%;
     height: 95%;
-    background-color: rgb(131, 127, 127);
+    background-color: rgb(105, 102, 102);
     margin-left: auto;
     margin-right: auto;
+    box-shadow: rgb(24, 24, 24) 0px 10px 60px;
+
 }
 
-body h1 {
+/* body h1 {
     text-align: center;
     margin-bottom: 0;
     padding: 100px 0;
     font-size: 50px;
-}
+} */
 
-ul li {
+ul.main li {
     display: block;
     width: 25%;
     float: left;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
-    background-color: rgb(78, 97, 114);
+    background-color: rgb(63, 78, 92);
     box-sizing: border-box;
+    border-bottom: 1px solid rgb(24, 24, 24);
 
 }
 
-ul {
+ul.main {
     padding-left: 0;
     margin: 0;
+
 }
 
 
-ul li::after {
+ul.main li::after {
     display: table;
     content: "";
     clear: both;
 }
 
 
-nav ul li:hover {
+nav ul.main li:hover {
     background-color: rgb(57, 72, 85);
 }
 
-nav>ul>li>a {
+nav>ul.main>li>a {
     text-decoration: none;
     color: azure;
 
+
 }
 
-nav>ul>li>a:hover,
-nav>ul>li>a:active {
+nav>ul.main>li>a:hover,
+nav>ul.main>li>a:active {
     color: rgb(201, 201, 175);
+    /* display: block; */
 
 }
 
-
-section#topleft h2 {
-    float: left;
-    width: 50%;
-    margin: 0;
-    text-align: center;
-}
-
-section#topleft {
+nav ul.main li a {
     display: block;
-    padding-top: 50px;
+    /* width: 100%; */
+
 }
 
-section#topleft p {
-    float: left;
-    width: 50%;
-    margin: 0;
-    padding-left: 25px;
-}
 
-section#topright h2 {
-    float: right;
-    width: 50%;
-    margin: 0;
-    text-align: center;
-}
-
-section#topright {
-    display: block;
-    padding-top: 50px;
-}
-
-section#topright p {
-    float: right;
-    width: 50%;
-    margin: 0;
-    padding-right: 25px;
-}
 
 p#placeHolder {
     padding-top: 100px;
