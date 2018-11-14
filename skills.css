@@ -16,31 +16,43 @@ html {
 body {
     width: 100%;
     height: 150%;
-    \ margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
 }
 
-section#topleft {
+/* header p {
+    background-color: rgb(209, 221, 221);
+    margin: auto;
+} */
+
+/* header div {
+    background-color: rgb(209, 221, 221);
+    margin: auto;
+} */
+
+section#topleftorimage {
     float: left;
     width: 45%;
     text-align: center;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 30px;
+    /* padding-top: 10px; */
     padding-bottom: 10px;
+    border: .1px solid rgb(0, 0, 0);
 }
 
-section#topleft::after {
+section#topleftorimage::after {
     clear: both;
     content: "";
     display: table;
 }
 
 section#topright {
-    float: right;
+    float: left;
+    /* ^^was originally right^^ */
     width: 45%;
     text-align: center;
-    padding-right: 10px;
-    padding-top: 10px;
+    padding-right: 30px;
+    /* padding-top: 10px; */
     padding-bottom: 10px;
 }
 
@@ -50,13 +62,14 @@ section#topright::after {
     display: table;
 }
 
-/* section#bottomleft {
+section#bottomleft {
     float: left;
     width: 45%;
     text-align: center;
     padding-left: 10px;
     padding-top: 50px;
     padding-bottom: 10px;
+    margin: auto;
 }
 
 section#bottomleft::after {
@@ -78,4 +91,4 @@ section#bottomright::after {
     clear: both;
     content: "";
     display: table;
-} */
+}

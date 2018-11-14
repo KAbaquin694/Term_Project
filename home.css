@@ -8,6 +8,20 @@
 body h1 {
     text-align: center;
     margin-bottom: 0;
-    padding: 100px 0;
+    padding: 100px 0px 50px 0px;
     font-size: 50px;
 }
+
+ul.main li {
+    width: 33.33%;
+}
+
+/* figcaption a {
+    text-decoration: none;
+    color: rgb(209, 221, 221);
+}
+
+figcaption a:hover,
+figcaption a:active {
+    color: rgb(201, 201, 175);
+} */
