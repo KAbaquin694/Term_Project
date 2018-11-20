@@ -28,4 +28,7 @@ ul li#contact {
 div {
     font-size: 1.5em;
     padding-left: 50px;
+    text-align: center;
+    font-size: 300%;
+    padding: 3em;
 }
