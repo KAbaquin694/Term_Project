@@ -15,7 +15,7 @@ html {
 
 body {
     width: 100%;
-    height: 100%;
+    height: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -41,7 +41,7 @@ section#topleftorimage {
     text-align: center;
     padding-left: 30px;
     /* padding-top: 10px; */
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     /* border: .1px solid rgb(0, 0, 0); */
 }
 
@@ -52,15 +52,20 @@ section#topleftorimage::after {
 }
 
 section#topright {
-    /* float: left; */
+    float: left;
     /* ^^was originally right^^ */
     width: 45%;
     text-align: center;
-    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
     /* padding-top: 10px; */
-    padding-bottom: 10px;
-    clear: both;
+    /* padding-bottom: 10px; */
+    /* clear: both; */
 }
+
+/* p#topright {
+    padding-bottom: 200px;
+} */
 
 section#topright::after {
     clear: both;
@@ -72,12 +77,11 @@ section#bottomleft {
     float: left;
     width: 45%;
     text-align: center;
-    padding-left: 10px;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    margin: auto;
+    padding-left: 30px;
+    /* padding-bottom: 10px; */
+    /* margin: auto; */
     /* clear: both; */
-    clear: right;
+    /* clear: right; */
 }
 
 section#bottomleft::after {
@@ -87,13 +91,12 @@ section#bottomleft::after {
 }
 
 section#bottomright {
-    /* float: right; */
     width: 45%;
     text-align: center;
-    padding-right: 10px;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    clear: both;
+    padding-right: 30px;
+    /* padding-bottom: 20px; */
+    /* clear: both; */
+    float: right;
 }
 
 section#bottomright::after {

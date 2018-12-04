@@ -102,6 +102,7 @@ section#bottomright p {
     width: 50%;
     margin: 0;
     padding-left: 25px;
+    padding-right: 25px;
     text-align: center;
 }
 
