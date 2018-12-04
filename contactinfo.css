@@ -31,10 +31,12 @@ div {
     text-align: center;
     font-size: 200%;
     padding: 2em;
+    text-shadow: 2.5px 2px 5px rgb(0, 0, 0);
 }
 
 img {
     display: block;
     margin: auto;
     border-radius: 50%;
+    box-shadow: 10px 5px 20px rgb(0, 0, 0);
 }

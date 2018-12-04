@@ -10,6 +10,7 @@ body h1 {
     margin-bottom: 0;
     padding: 100px 0px 50px 0px;
     font-size: 50px;
+    text-shadow: 3px 2px 8px rgb(15, 0, 15);
 }
 
 ul.main li {
@@ -47,6 +48,7 @@ img#pHolder {
     height: 100%;
     width: 100%;
     border-radius: 50%;
+    box-shadow: 10px 5px 20px rgb(0, 0, 0);
 }
 
 p#placeHolder {
@@ -55,5 +57,5 @@ p#placeHolder {
     /* border: 1px solid rgb(24, 24, 24); */
     width: 40%;
     margin: auto;
-    height: 40%;
+    height: 40%
 }
