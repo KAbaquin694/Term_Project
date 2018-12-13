@@ -39,4 +39,6 @@ img {
     margin: auto;
     border-radius: 50%;
     box-shadow: 10px 5px 20px rgb(0, 0, 0);
+    transform: rotateZ(-90deg);
+    width: 75%;
 }
