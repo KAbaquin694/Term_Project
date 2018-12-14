@@ -22,8 +22,9 @@ body {
 
 img {
     border-radius: 50%;
-    width: 40%;
+    width: 60%;
     box-shadow: 10px 5px 20px rgb(0, 0, 0);
+
 }
 
 /* header p {
@@ -36,7 +37,7 @@ img {
     margin: auto;
 } */
 
-section#topleftorimage {
+section#image {
     float: left;
     width: 45%;
     text-align: center;
@@ -46,7 +47,7 @@ section#topleftorimage {
     /* border: .1px solid rgb(0, 0, 0); */
 }
 
-section#topleftorimage::after {
+section#image::after {
     clear: both;
     content: "";
     display: table;
@@ -104,4 +105,20 @@ section#bottomright::after {
     clear: both;
     content: "";
     display: table;
+}
+
+h2 {
+    text-align: center;
+    margin: auto;
+    text-decoration: underline;
+    text-shadow: 2px 2.5px 10px rgb(0, 0, 0);
+}
+
+p a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+p a:hover {
+    color: rgb(155, 50, 255);
 }
