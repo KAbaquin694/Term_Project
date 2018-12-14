@@ -5,6 +5,8 @@
  Date: 11.8.18 
 */
 
+/* This section of code is responsible for styling the heading that is within the body via aligning the text, providing it with padding, adjusting the size, & giving it a text-shadow. */
+
 body h1 {
     text-align: center;
     margin-bottom: 0;
@@ -13,48 +15,25 @@ body h1 {
     text-shadow: 3px 2px 8px rgb(15, 0, 15);
 }
 
+/* This style rule simply justs gives the list items within the unordered list with the class of 'main' a width of 50%. */
+
 ul.main li {
     width: 50%;
 }
 
+/* This block of code is specifically for styling the image with the id of 'west-mec'. This allows the image to have a height of 120%, a width of 100%, a rounded border, & a box-shadow. */
 
-/* html {
-    background: linear-gradient(rgb(12, 25, 41), rgb(92, 89, 89));
-}
-
-body {
-    background: linear-gradient(rgb(92, 89, 89), rgb(12, 25, 41));
-} */
-
-/* nav ul li {
-    background: linear-gradient(rgb(92, 89, 89), rgb(12, 25, 41));
-} */
-
-/* figcaption a {
-    text-decoration: none;
-    color: rgb(209, 221, 221);
-}
-
-figcaption a:hover,
-figcaption a:active {
-    color: rgb(201, 201, 175);
-} */
-
-img#pHolder {
-    /* position: absolute; */
-    /* left: 0px;
-    right: 0px;
-    z-index: -1px; */
-    height: 100%;
+img#west-mec {
+    height: 120%;
     width: 100%;
     border-radius: 50%;
     box-shadow: 10px 5px 20px rgb(0, 0, 0);
 }
 
+/* This code block is for the paragraph with the id of 'placeHolder'. It centers the text & gives it a width & height of 40%; */
+
 p#placeHolder {
-    /* padding-top: 100px; */
     text-align: center;
-    /* border: 1px solid rgb(24, 24, 24); */
     width: 40%;
     margin: auto;
     height: 40%

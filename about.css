@@ -5,6 +5,8 @@
  Date: 11.8.18 
 */
 
+/* These two block of code style the overall appearance of this web page by centering & setting the height & width of both the html & body element. */
+
 html {
 
     max-width: 960px;
@@ -20,6 +22,8 @@ body {
     margin-right: auto;
 }
 
+/* This section of code is for the content within the div element & the div element itself. It centers the text & gives it a size of 30 pixels. As for the div itself, this piece of code gives it a width of 80%, centers it on the body, & applies padding to the top. */
+
 div {
     width: 80%;
     margin: auto;
@@ -30,102 +34,3 @@ div p {
     text-align: center;
     font-size: 30px;
 }
-
-
-/* h2 {
-    text-shadow: 5px 2.5px 10px rgb(0, 0, 0);
-} */
-
-/* section#topleft h2 {
-    float: left;
-    width: 50%;
-    margin: 0;
-    text-align: center;
-    padding-top: 10px;
-}
-
-section#topleft {
-    display: block;
-    padding-top: 50px;
-}
-
-section#topleft p {
-    float: left;
-    width: 50%;
-    margin: 0;
-    padding-left: 25px;
-    text-align: center;
-}
-
-section#topright h2 {
-    float: right;
-    width: 50%;
-    margin: 0;
-    text-align: center;
-    padding-top: 10px;
-}
-
-section#topright {
-    display: block;
-    padding-top: 50px;
-}
-
-section#topright p {
-    float: right;
-    width: 50%;
-    margin: 0;
-    padding-right: 25px;
-    text-align: center;
-}
-
-section#bottomleft h2 {
-    float: left;
-    width: 50%;
-    margin: 0;
-    text-align: center;
-    padding-top: 10px;
-}
-
-section#bottomleft {
-    display: block;
-    padding-top: 50px;
-}
-
-section#bottomleft p {
-    float: left;
-    width: 50%;
-    margin: 0;
-    padding-left: 25px;
-    text-align: center;
-}
-
-section#bottomright h2 {
-    float: right;
-    width: 50%;
-    margin: 0;
-    text-align: center;
-    padding-top: 10px;
-}
-
-section#bottomright {
-    display: block;
-    padding-top: 50px;
-}
-
-section#bottomright p {
-    float: right;
-    width: 50%;
-    margin: 0;
-    padding-left: 25px;
-    padding-right: 25px;
-    text-align: center;
-} */
-
-/* div.placeholder {
-    width: 50%;
-}
-
-section p.placeholderImage {
-    color: rgb(92, 89, 89);
-    border: 1px solid rgb(0, 0, 0);
-} */

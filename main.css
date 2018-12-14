@@ -5,6 +5,8 @@
  Date: 11.2.18 
 */
 
+/* This large block of code is responsible for styling both the html & body element. This gives the html a backgound image & styles said image, applies a certain font to all text, gives elements a box-shadow & text a text-shadow, colors the text, provides a linear gradient for the body, sets the opacity, & changes the font of all text, which is used by all of the web pages. */
+
 html {
     background-color: rgb(12, 25, 41);
     max-width: 960px;
@@ -32,12 +34,7 @@ body {
     background: linear-gradient(rgb(92, 89, 89), rgb(68, 72, 75), rgb(12, 25, 41));
 }
 
-/* body h1 {
-    text-align: center;
-    margin-bottom: 0;
-    padding: 100px 0;
-    font-size: 50px;
-} */
+/* This section of code is for styling the navigatin bar, the links, & the list items. It gives them color, sets the links to a different color when hovered over, & gives it a bottom border. */
 
 ul.main li {
     display: block;
@@ -49,22 +46,18 @@ ul.main li {
     background-color: rgb(52, 64, 75);
     box-sizing: border-box;
     border-bottom: 1px solid rgb(24, 24, 24);
-
 }
 
 ul.main {
     padding-left: 0;
     margin: 0;
-
 }
-
 
 ul.main li::after {
     display: table;
     content: "";
     clear: both;
 }
-
 
 nav ul.main li:hover {
     background-color: rgb(40, 51, 59);
@@ -78,14 +71,13 @@ nav>ul.main>li>a {
 nav>ul.main>li>a:hover,
 nav>ul.main>li>a:active {
     color: rgb(201, 201, 175);
-    /* display: block; */
-
 }
 
 nav ul.main li a {
     display: block;
-    /* width: 100%; */
 }
+
+/* This style rule gives all text in all web pages a black text-shadow. */
 
 p {
     text-shadow: 5px 2.5px 10px rgb(0, 0, 0);
