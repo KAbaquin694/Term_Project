@@ -5,6 +5,8 @@
  Date: 11.2.18 
 */
 
+/* This block of code styles the web page & its body similarly to the main.css file. The only difference being the height of the page & body. The web page as a whole has a height of 150% instead of 110% & the body has a height of 100% instead of 130%. */
+
 html {
 
     max-width: 960px;
@@ -20,6 +22,8 @@ body {
     margin-right: auto;
 }
 
+/* This style rule rounds the borders of the 'img' element by 50%, gives it a width of 60%, & a black box-shadow. */
+
 img {
     border-radius: 50%;
     width: 60%;
@@ -27,67 +31,45 @@ img {
 
 }
 
-section#image {
-    float: left;
+/* This section of code is for all of the sections with various ids. All sections have a width of 45% & aligned text. These style rules affect the sections with the ids of 'image', 'topright', 'bottomleft', & 'bottomright'. The difference between the different sections is where they float & their padding. */
+
+section {
     width: 45%;
     text-align: center;
-    padding-left: 30px;
-
 }
 
-section#image::after {
-    clear: both;
-    content: "";
-    display: table;
+section#image {
+    float: left;
+    padding-left: 30px;
 }
 
 section#topright {
     float: left;
-    width: 45%;
-    text-align: center;
     padding-left: 30px;
     padding-bottom: 30px;
-
-}
-
-section#topright::after {
-    clear: both;
-    content: "";
-    display: table;
 }
 
 section#bottomleft {
     float: left;
-    width: 45%;
-    text-align: center;
     padding-left: 30px;
 }
 
-section#bottomleft::after {
-    clear: both;
-    content: "";
-    display: table;
-}
-
 section#bottomright {
-    width: 45%;
-    text-align: center;
-    padding-right: 30px;
     float: right;
+    padding-right: 30px;
 }
 
-section#bottomright::after {
-    clear: both;
-    content: "";
-    display: table;
-}
+/* This style rule is responsible for the appearance of the 'h2' elements. The 'h2' elements are cantered, as well as their text, are underlined, have a text-shadow, & have padding on top. */
 
 h2 {
     text-align: center;
     margin: auto;
     text-decoration: underline;
     text-shadow: 2px 2.5px 10px rgb(0, 0, 0);
+    padding-top: 25px;
 }
+
+/* This small block of code style the link the is within the paragraph element by applying a text color of rgb(255, 255, 255) & no text decoration. When the user hovers over said link, the color changes to an rgb of (155, 50, 255). */
 
 p a {
     color: rgb(255, 255, 255);
