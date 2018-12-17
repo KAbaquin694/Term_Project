@@ -5,6 +5,8 @@
  Date: 11.2.18 
 */
 
+/* This section of code is also similar to the main.css file except the difference is also the height & background color in both the 'body' & 'html' element. */
+
 html {
     background-color: rgb(44, 72, 104);
     max-width: 960px;
@@ -21,18 +23,22 @@ body {
     margin-right: auto;
 }
 
+/* This style rule removes the underline from the list items with the id of 'contact' that is nested within a 'ul' element. */
+
 ul li#contact {
     text-decoration: none;
 }
 
+/* This style rule is for all of the 'div' elements & applies a font size of 200%, padding of 2em, centered text, & a text-shadow. */
+
 div {
-    font-size: 1.5em;
-    padding-left: 50px;
     text-align: center;
     font-size: 200%;
     padding: 2em;
     text-shadow: 2.5px 2px 5px rgb(0, 0, 0);
 }
+
+/* This last style rule styles the image. It displays the image as a block, sets the margin to auto, rounds its borders, applies a box-shadow, rotates it by -90 degrees, & gives it a width of 50%. */
 
 img {
     display: block;
@@ -40,5 +46,5 @@ img {
     border-radius: 50%;
     box-shadow: 10px 5px 20px rgb(0, 0, 0);
     transform: rotateZ(-90deg);
-    width: 40%;
+    width: 50%;
 }
