@@ -25,10 +25,9 @@ body {
 /* This style rule rounds the borders of the 'img' element by 50%, gives it a width of 60%, & a black box-shadow. */
 
 img {
-    border-radius: 50%;
-    width: 60%;
+    /* border-radius: 50%; */
+    width: 80%;
     box-shadow: 10px 5px 20px rgb(0, 0, 0);
-
 }
 
 /* This section of code is for all of the sections with various ids. All sections have a width of 45% & aligned text. These style rules affect the sections with the ids of 'image', 'topright', 'bottomleft', & 'bottomright'. The difference between the different sections is where they float & their padding. */
