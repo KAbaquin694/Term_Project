@@ -29,13 +29,17 @@ ul li#contact {
     text-decoration: none;
 }
 
-/* This style rule is for all of the 'div' elements & applies a font size of 200%, padding of 2em, centered text, & a text-shadow. */
+/* This style rule is for all of the 'div' elements & applies a font size of 200%, padding of 2em, centered text, & a text-shadow. The div with the id of 'bottom' has no padding. */
 
 div {
     text-align: center;
-    font-size: 200%;
-    padding: 2em;
+    font-size: 190%;
+    padding-top: 2em;
     text-shadow: 2.5px 2px 5px rgb(0, 0, 0);
+}
+
+div#bottom {
+    padding: 0;
 }
 
 /* This last style rule styles the image. It displays the image as a block, sets the margin to auto, rounds its borders, applies a box-shadow, rotates it by -90 degrees, & gives it a width of 50%. */
@@ -43,8 +47,6 @@ div {
 img {
     display: block;
     margin: auto;
-    border-radius: 50%;
     box-shadow: 10px 5px 20px rgb(0, 0, 0);
-    transform: rotateZ(-90deg);
-    width: 50%;
+    width: 60%;
 }
